@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://used-market-negotiation-helper.rlawhddh3803.workers.dev/sitemap.xml
+Sitemap: https://used-market-negotiation-helper.vercel.app/sitemap.xml
