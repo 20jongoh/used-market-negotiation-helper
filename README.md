@@ -25,7 +25,7 @@ HTML, CSS, 순수 JavaScript. 빌드 과정이나 외부 프레임워크가 필�
 2. Production Branch를 `main`으로 설정합니다.
 3. `main` 브랜치에 push하면 Vercel이 자동으로 Production 배포를 진행합니다.
 4. 현재 대표 사이트 주소는 `https://used-market-negotiation-helper.vercel.app`입니다.
-5. `contact.html`의 `[운영자 이메일]` 자리는 실제 수신 가능한 이메일로 교체합니다.
+5. 문의 이메일은 `rlawhddh3803@naver.com`입니다.
 ## 파일 구조
 
 ```text
