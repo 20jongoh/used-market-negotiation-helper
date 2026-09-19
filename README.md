@@ -19,14 +19,13 @@ HTML, CSS, 순수 JavaScript. 빌드 과정이나 외부 프레임워크가 필�
 
 `index.html`을 브라우저에서 열면 됩니다. 일부 브라우저의 클립보드 기능까지 동일하게 확인하려면 정적 파일 서버(예: VS Code Live Server)를 사용하세요.
 
-## Cloudflare Pages 배포
+## Vercel 배포
 
-1. 이 폴더를 GitHub 또는 GitLab 저장소에 푸시합니다.
-2. Cloudflare Dashboard에서 **Workers & Pages → Create application → Pages → Connect to Git**를 선택합니다.
-3. 저장소를 선택하고 Framework preset은 `None`, Build command는 비워두며 Build output directory는 `/`로 설정합니다.
-4. 현재 배포 주소(`https://used-market-negotiation-helper.vercel.app`)는 모든 HTML의 canonical·Open Graph URL, `robots.txt`, `sitemap.xml`에 반영되어 있습니다. 사용자 정의 도메인을 연결하면 해당 주소들로 함께 교체합니다.
-5. `contact.html`의 `[운영자 이메일]` 자리도 실제 이메일로 교체합니다.
-
+1. GitHub 저장소와 Vercel 프로젝트를 연결합니다.
+2. Production Branch를 `main`으로 설정합니다.
+3. `main` 브랜치에 push하면 Vercel이 자동으로 Production 배포를 진행합니다.
+4. 현재 대표 사이트 주소는 `https://used-market-negotiation-helper.vercel.app`입니다.
+5. `contact.html`의 `[운영자 이메일]` 자리는 실제 수신 가능한 이메일로 교체합니다.
 ## 파일 구조
 
 ```text
