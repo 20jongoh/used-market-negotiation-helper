@@ -1,0 +1,17 @@
+# Repository and Cloudflare development metadata
+.git/
+.wrangler/
+.github/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project documentation and deployment configuration
+README.md
+.gitignore
+.assetsignore
+wrangler.jsonc

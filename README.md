@@ -24,7 +24,7 @@ HTML, CSS, 순수 JavaScript. 빌드 과정이나 외부 프레임워크가 필�
 1. 이 폴더를 GitHub 또는 GitLab 저장소에 푸시합니다.
 2. Cloudflare Dashboard에서 **Workers & Pages → Create application → Pages → Connect to Git**를 선택합니다.
 3. 저장소를 선택하고 Framework preset은 `None`, Build command는 비워두며 Build output directory는 `/`로 설정합니다.
-4. 배포 후 실제 도메인으로 모든 HTML의 canonical, Open Graph URL, `robots.txt`, `sitemap.xml`에 있는 `https://example.com`을 교체합니다.
+4. 현재 배포 주소(`https://used-market-negotiation-helper.rlawhddh3803.workers.dev`)는 모든 HTML의 canonical·Open Graph URL, `robots.txt`, `sitemap.xml`에 반영되어 있습니다. 사용자 정의 도메인을 연결하면 해당 주소들로 함께 교체합니다.
 5. `contact.html`의 `[운영자 이메일]` 자리도 실제 이메일로 교체합니다.
 
 ## 파일 구조
