@@ -13,3 +13,8 @@ desktop.ini
 *.log
 *.tmp
 *.bak
+
+# Local QA tools and screenshots (not shipped)
+.test-tools/
+.qa/
+__pycache__/
